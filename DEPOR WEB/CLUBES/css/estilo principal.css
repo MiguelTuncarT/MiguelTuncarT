@@ -1,0 +1,145 @@
+body {
+	background-image: url(../img/bkg_body.jpg);
+	background-repeat: repeat-x;
+	
+}
+
+#shadow{
+	height: auto;
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../img/bkg_container.png);
+	background-repeat: repeat-y;
+	}
+#container{
+	background-color: #eaeaea;
+	height: 1000px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+#header{
+	height: 190px;
+	width: 960px;
+	float: left;
+	background-image: none;
+	}
+
+#navi{
+	float: left;
+	height: 40px;
+	width: 960px;
+	background-image: url(../img/bkg_nav.jpg);
+	background-repeat: repeat-x;
+	}
+	
+#article{
+	width: 960px;
+	height: 770px;
+	float: left;
+}
+#sub_article{
+	width: 920px;
+	height: 693px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+
+#footer{
+	height: 77px;
+	width: 960px;
+	float: left;
+	}
+ul{
+	width:960px;
+	height:auto;
+	margin:auto;
+	padding:0;
+	
+	
+	}
+ul li {
+	list-style:none;
+	text-align:center;
+	
+	}
+ul > li{
+	position:relative;
+	float:left;
+	width:160px;
+	height:50px;
+	background-color: #000;
+	Z-index: 1;
+	
+	
+	}
+	
+ul > li:hover{
+	background:#000}
+
+
+
+ul li a {
+	display: block;
+	color: white;
+	padding: 1em 0;
+	text-decoration: none;
+	font-family: "premier League";
+	font-size: 16px;
+	
+	}
+ul li ul {
+	display:none;
+	position:absolute;
+	
+	}
+ul li:hover ul {
+	display:block;
+	}
+ul li ul li:hover{
+	background:black;
+	}
+ul li ul li a {
+	
+	color: #FFF;
+	}
+.CUADRO1 {
+	font-family: DEVRoye;
+	font-size: small;
+	color: #00F;
+	text-align: center;
+	height: 210px;
+	width: 920px;
+	position: absolute;
+	top: 263px;
+}
+.CUADRO3 {
+	font-family: DEVRoye;
+	font-size: 13px;
+	color: #00F;
+	text-align: center;
+	height: 210px;
+	width: 920px;
+	position: absolute;
+	top: 722px;
+}
+.CUADRO2 {
+	height: 182px;
+	width: 650px;
+	position: relative;
+	text-align: center;
+	font-family: DEVRoye;
+	font-size: 13px;
+	color: #00F;
+	top: 275px;
+	margin: auto;
+}
+.TITULOS {
+	font-weight: bold;
+	font-family: "premier League";
+	font-size: 30px;
+	color: #FF8000;
+}

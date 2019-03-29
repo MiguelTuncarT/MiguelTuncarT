@@ -1,0 +1,144 @@
+body {
+	background-image: url(../img/bkg_body.jpg);
+	background-repeat: repeat-x;
+	
+}
+
+#shadow{
+	height: auto;
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../img/bkg_container.png);
+	background-repeat: repeat-y;
+	}
+#container{
+	background-color: #eaeaea;
+	height: 1200px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+#header{
+	height: 190px;
+	width: 960px;
+	float: left;
+	background-image: none;
+	}
+
+#navi{
+	float: left;
+	height: 40px;
+	width: 960px;
+	background-image: url(../img/bkg_nav.jpg);
+	background-repeat: repeat-x;
+	}
+	
+#article{
+	width: 960px;
+	height: 970px;
+	float: left;
+}
+#sub_article{
+	width: 920px;
+	height: 939px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.imagenes5 {
+	position: absolute;
+	width: 920px;
+	top: 1024px;
+	left: auto;
+	
+}
+.titulo {
+	height: 71px;
+	width: 461px;
+	font-family: "premier League";
+	font-size: 45px;
+	color: #00F;
+	position: absolute;
+	left: auto;
+	top: 264px;
+}
+.parrafo1 {
+	height: 364px;
+	width: 604px;
+	position: absolute;
+	left: auto;
+	top: 337px;
+	color: #00F;
+	font-family: "Agency FB";
+	font-size: 18px;
+}
+.parrafo2 {
+	font-family: "Agency FB";
+	font-size: 18px;
+	color: #00F;
+	height: 270px;
+	width: 920px;
+	position: absolute;
+	left: auto;
+	top: 714px;
+}
+.lionel_messi_foto {
+	float: right;
+	height: 463px;
+	width: 298px;
+	position: absolute;
+	left: 620px;
+	top: -5px;
+}
+ul{
+	width:960px;
+	height:auto;
+	margin:auto;
+	padding:0;
+	
+	}
+ul li {
+	list-style:none;
+	text-align:center;
+	
+	}
+ul > li{
+	position:relative;
+	float:left;
+	width:160px;
+	height:50px;
+	background-color: #000;
+	Z-index: 1;
+	}
+	
+ul > li:hover{
+	background:#000}
+
+
+
+ul li a {
+	display: block;
+	color: white;
+	padding: 1em 0;
+	text-decoration: none;
+	font-family: "premier League";
+	font-size: 16px;
+	
+	}
+ul li ul {
+	display:none;
+	position:absolute;
+	
+	}
+ul li:hover ul {
+	display:block;
+	}
+ul li ul li:hover{
+	background:black;
+	}
+ul li ul li a {
+	
+	color: #FFF;
+	}
